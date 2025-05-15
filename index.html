@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JS Event Playground</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>🎉 JS Event Assignment</h1>
+
+  <!-- Button with click, double-click, and long-press -->
+  <button id="eventButton">Click me</button>
+  <p id="buttonMessage"></p>
+
+  <!-- Hover box -->
+  <div id="hoverBox">Hover over me!</div>
+  <p id="hoverMessage"></p>
+
+  <!-- Keypress detection -->
+  <input type="text" id="keyInput" placeholder="Type something..." />
+  <p id="keyMessage"></p>
+
+  <!-- Image gallery (slideshow) -->
+  <div id="slideshow">
+    <img id="galleryImage" src="https://via.placeholder.com/300x200?text=Image+1" alt="Gallery Image" />
+    <button id="nextImage">Next Image</button>
+  </div>
+
+  <!-- Accordion content -->
+  <div class="accordion">
+    <button class="accordion-toggle">Toggle Info</button>
+    <div class="accordion-content">🥳 Surprise! You found the hidden text.</div>
+  </div>
+
+  <!-- Form -->
+  <form id="myForm">
+    <h2>Form Validation</h2>
+    <input type="text" id="name" placeholder="Your Name" required /><br />
+    <input type="email" id="email" placeholder="Email" required /><br />
+    <input type="password" id="password" placeholder="Password" required /><br />
+    <p id="formFeedback"></p>
+    <button type="submit">Submit</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
